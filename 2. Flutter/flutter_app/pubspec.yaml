@@ -56,7 +56,16 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  fonts:
+    # family 字体名称 将会在TextStyle的fontFamily属性用到
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/Source_Sans_Pro/SourceSansPro-Black.ttf
+        - asset: fonts/Source_Sans_Pro/SourceSansPro-BlackItalic.ttf
+          #  weight属性制定了文件中字体轮廓字重为100的整数倍
+          weight: 400
+          # style 属性指定文件中字体轮廓是否为italic或normal
+          style: normal
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

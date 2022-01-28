@@ -12,9 +12,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo', 
-      home: Home(),
+      home: const Home(),
+      // 全局设置字体
+      theme: ThemeData(fontFamily: 'SourceSansPro'),
       debugShowCheckedModeBanner: false
     );
   }
