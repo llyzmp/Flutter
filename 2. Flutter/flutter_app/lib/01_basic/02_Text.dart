@@ -38,7 +38,7 @@ class TextDemo extends StatelessWidget {
             fontWeight: FontWeight.w500,
             fontStyle: FontStyle.italic,
             decoration: TextDecoration.lineThrough,
-            decorationColor: Colors.blue
+            decorationColor: Color.fromARGB(0XFF, 0X00, 0XFF, 0X00)
           ),
           textAlign: TextAlign.right,
           maxLines: 2,
